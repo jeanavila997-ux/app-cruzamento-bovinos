@@ -5,6 +5,10 @@
   "author": "Agro Ávila <contato@agroavila.com.br>",
   "private": true,
   "version": "1.0.0",
+  "allowScripts": {
+    "electron@43.1.1": true,
+    "esbuild@0.25.12": true
+  },
   "main": "electron/main.cjs",
   "homepage": ".",
   "type": "module",
